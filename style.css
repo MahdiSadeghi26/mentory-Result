@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'HankenGrotesk-Bold';
+    src: url('./assets/fonts/static/HankenGrotesk-Bold.ttf');
+}
+@font-face {
+    font-family: 'HankenGrotesk-ExtraBold';
+    src: url('./assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'HankenGrotesk-Medium';
+    src: url('./assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.content{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 3px 31px -7px rgba(0,0,0,0.75);
+    border-radius: 25px;
+}
+.leftSide{
+    width: 50%;
+    border-radius: 25px;
+    height: 100%;
+    background-color: #5F3FFC;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.result{
+    color: #CCBAFF;
+    align-self: center;
+    font-family: 'HankenGrotesk-Bold';
+    font-size: 22px;
+}
+.score{
+    background-color: #452DDD;
+    width: 70%;
+    height: 150px;
+    border-radius:50%;
+    align-self: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.bigScore{
+   font-size: 55px;
+   font-family:'HankenGrotesk-ExtraBold';
+}
+.smallScore{
+    color: #887CFC;
+    font-size: 20px;
+}
+.message{
+    margin-top: 15px;
+}
+.status{
+    color: white;
+    font-family:'HankenGrotesk-Bold';
+    text-align: center;
+    font-size: 32px;
+}
+.details{
+    color: #CCBAFF;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'HankenGrotesk-Medium';
+}
+.rightSide{
+    width: 50%;
+}
