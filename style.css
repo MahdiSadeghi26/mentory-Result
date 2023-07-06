@@ -159,3 +159,43 @@
     background-color: hsl(241, 81%, 54%);
     transition: all .4s;
 }
+@media screen and (max-width:768.98px) {
+    .container{
+        height: auto
+    }
+    .content{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .leftSide{
+        border-radius: 0 0 45px 45px;
+        width: 100%;
+        align-items: center;
+    }
+    .score{
+        width: 250px;
+        height: 200px;
+    }
+    .details{
+        justify-content: center;
+        display: flex;
+        width: 300px;
+        
+    }
+    .RightSide{
+        align-self: center;
+        width: 100%;
+    }
+    .rightTitle{
+        padding-bottom: 20px;
+    }
+    .scores{
+        width: 90%;
+        align-self: center;
+    }
+    .comp{
+        width: 90%;
+        align-self: center;
+    }
+}
