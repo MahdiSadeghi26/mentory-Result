@@ -145,7 +145,7 @@
 }
 .comp{
     width: 100%;
-    background-color: hsla(256, 72%, 46%, 1);
+    background-color: hsl(224, 30%, 27%);
     order: 1;
     padding: 15px;
     border-radius: 25px;
@@ -154,4 +154,8 @@
     border: none;
     font-family: "HankenGrotesk-Bold";
     cursor: pointer;
+}
+.comp:hover{
+    background-color: hsl(241, 81%, 54%);
+    transition: all .4s;
 }
